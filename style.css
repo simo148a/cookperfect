@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #fafafa;
+    border-bottom: solid 1px #E5E0DA
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#welcome {
+    background-image: url(img/red-meat-splash.jpg);
+    background-color: rgba(114, 38, 38, 0.9);
+    background-size: cover;
+}
+
+.welcome_tekst {
+    margin: 5em 0;
+}
+
+.lead {
+    width: 50%;
+}
+
+.btn {
+    background-color: #561018;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #A32026;
+}
+
+@media screen and (max-width: 992px) {
+    .lead {
+        width: 100%;
+    }
+}
