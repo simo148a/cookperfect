@@ -1,3 +1,8 @@
+/*------------GENERALT STYLING------------*/
+section {
+    overflow: hidden;
+}
+
 .navbar {
     background-color: #fafafa;
     border-bottom: solid 1px #E5E0DA
@@ -14,6 +19,11 @@ a {
     background-size: cover;
 }
 
+img {
+    width: 100%;
+}
+
+/*------------HEADER STYLING------------*/
 .welcome_tekst {
     margin: 5em 0;
 }
@@ -31,8 +41,59 @@ a {
     background-color: #A32026;
 }
 
+/*------------GUIDES STYLING------------*/
+#guides {
+    background-color: #561018;
+    color: #FFF;
+}
+
+#guides h2 {
+    margin-top: 2em;
+}
+
+#guide2,
+#guide4 {
+    text-align: right;
+}
+
+#guide1,
+#guide2,
+#guide3,
+#guide4 {
+    padding-top: 1em;
+}
+
+
+
+/*------------GUIDES STYLING------------*/
+/*section img {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: .8s;
+}
+
+section.active img {
+    opacity: 1;
+    transform: translateX(-50%);
+}
+*/
+
+
+/*------------MEDIA QUERIES------------*/
 @media screen and (max-width: 992px) {
     .lead {
         width: 100%;
     }
+
+    #guides h2 {
+        margin-top: 0em;
+    }
+
+    #guide1,
+    #guide2,
+    #guide3,
+    #guide4 {
+        padding-top: 2em;
+    }
+
 }
