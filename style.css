@@ -77,6 +77,38 @@ section.active img {
 }
 */
 
+.fadeinleft {
+    position: relative;
+    left: -1000px;
+    opacity: 0;
+}
+
+.fadeinright {
+    position: relative;
+    left: 1000px;
+    opacity: 0;
+}
+
+/*
+@keyframes fadeinleft {
+    from {
+        opacity: 0;
+        left: -1000px;
+    }
+
+    to {
+        opacity: 1;
+        left: 0px;
+    }
+}
+*/
+
+/*------------FOOTER------------*/
+footer {
+    height: 300px;
+    background-color: darkgrey;
+}
+
 
 /*------------MEDIA QUERIES------------*/
 @media screen and (max-width: 992px) {

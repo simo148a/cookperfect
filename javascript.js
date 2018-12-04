@@ -1,43 +1,75 @@
-/*const sections = document.querySelectorAll("section");
-console.log(sections);
-window.addEventListener("scroll", function(){
-  sections.forEach(section => {
-    const scrolling = (window.scrollY + window.innerHeight) - section.offsetHeight / 2;
-    if(scrolling > section.offsetTop){
-      section.classList.add('active');
-      console.log(section);
-    }
-    else{
-      section.classList.remove('active');
-    }
-  });
-})*/
+//$(document).ready(function () {
+//    $(window).scroll(function () {
+//        $('.fadeinleft').each(function (i) {
+//
+//            var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+//            var bottom_of_window = $(window).scrollTop() + $(window).height();
+//
+//            if (bottom_of_window > bottom_of_element) {
+//                $(this).animate({
+//                    'opacity': '1',
+//                    'margin-left': '0px'
+//                }, 1000);
+//            }
+//
+//        });
+//    });
+//});
 
+//$(function () { // $(document).ready shorthand
+//    $('.monster').fadeIn('slow');
+//});
 
+$(document).ready(function () {
 
+    /* Every time the window is scrolled ... */
+    $(window).scroll(function () {
 
+        /* Check the location of each desired element */
+        $('.fadeinleft').each(function (i) {
 
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-//$window.trigger('scroll');
-/*$element.animate({
-  marginLeft: 100
-}, "slow").fadeIn("slow", 1);*/
+            /* If the object is completely visible in the window, fade it it */
+            if (bottom_of_window > bottom_of_object) {
 
+                $(this).animate({
+                    'opacity': '1',
+                    'left': '0'
+                }, 1500);
 
+            }
 
-/*
+        });
 
+    });
 
-$.each($animation_elements, function() {
-    var $element = $(this);
-    var element_height = $element.outerHeight();
-    var element_top_position = $element.offset().top;
-    var element_bottom_position = (element_top_position + element_height);
-    if ((element_bottom_position >= window_top_position) &&
-        (element_top_position <= window_bottom_position)) $element.addClass('hasSlid');
-    else $element.removeClass('hasSlid');
-  });
+});
 
+$(document).ready(function () {
 
+    /* Every time the window is scrolled ... */
+    $(window).scroll(function () {
 
-*/
+        /* Check the location of each desired element */
+        $('.fadeinright').each(function (i) {
+
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            /* If the object is completely visible in the window, fade it it */
+            if (bottom_of_window > bottom_of_object) {
+
+                $(this).animate({
+                    'opacity': '1',
+                    'left': '0'
+                }, 1000);
+
+            }
+
+        });
+
+    });
+
+});
