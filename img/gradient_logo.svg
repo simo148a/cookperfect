@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 768 500">
+  <defs>
+    <linearGradient id="linear-gradient" x1="72.67" y1="256.92" x2="724.39" y2="256.92" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#bf785a"/>
+      <stop offset="0.34" stop-color="#b8413b"/>
+      <stop offset="0.42" stop-color="#b4232a"/>
+      <stop offset="0.74" stop-color="#7d1923"/>
+      <stop offset="0.82" stop-color="#7b1922"/>
+      <stop offset="0.86" stop-color="#731720"/>
+      <stop offset="0.89" stop-color="#65141c"/>
+      <stop offset="0.92" stop-color="#511017"/>
+      <stop offset="0.95" stop-color="#380b10"/>
+      <stop offset="0.97" stop-color="#190507"/>
+      <stop offset="0.99"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="38.19" y1="108.5" x2="110.81" y2="108.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#bf785a"/>
+      <stop offset="0.34" stop-color="#b8413b"/>
+      <stop offset="0.42" stop-color="#b4232a"/>
+      <stop offset="0.69" stop-color="#7d1923"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <title>gradient_logo</title>
+  <g id="gradient_logo">
+    <path d="M375,173S273,79,155,151c-115.5,70.5-37,157-27,164s64,64,179,32c0,0,60-12.4,137.07-112.78.62-.81,1.27-1.6,2-2.35L489,185s7-14,63-15,103.21-1.22,121,9c23.5,13.5,44,49,22,90s-58,41-180,38v83" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40" stroke="url(#linear-gradient)"/>
+    <circle cx="74.5" cy="108.5" r="27" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="18.62" stroke="url(#linear-gradient-2)"/>
+  </g>
+</svg>

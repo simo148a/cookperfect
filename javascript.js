@@ -37,7 +37,7 @@ $(document).ready(function () {
                 $(this).animate({
                     'opacity': '1',
                     'left': '0'
-                }, 1500);
+                }, 800);
 
             }
 
@@ -64,7 +64,7 @@ $(document).ready(function () {
                 $(this).animate({
                     'opacity': '1',
                     'left': '0'
-                }, 1000);
+                }, 800);
 
             }
 

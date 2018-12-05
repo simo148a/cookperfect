@@ -33,18 +33,19 @@ img {
 }
 
 .btn {
-    background-color: #561018;
+    background-color: #A32026;
     border: none;
 }
 
 .btn:hover {
-    background-color: #A32026;
+    background-color: #561018;
 }
 
 /*------------GUIDES STYLING------------*/
 #guides {
     background-color: #561018;
     color: #FFF;
+    padding-bottom: 3em;
 }
 
 #guides h2 {
@@ -65,17 +66,6 @@ img {
 
 
 /*------------GUIDES STYLING------------*/
-/*section img {
-    opacity: 0;
-    transform: translateX(100%);
-    transition: .8s;
-}
-
-section.active img {
-    opacity: 1;
-    transform: translateX(-50%);
-}
-*/
 
 .fadeinleft {
     position: relative;
@@ -89,24 +79,65 @@ section.active img {
     opacity: 0;
 }
 
-/*
-@keyframes fadeinleft {
-    from {
-        opacity: 0;
-        left: -1000px;
-    }
 
-    to {
-        opacity: 1;
-        left: 0px;
-    }
+/*------------SLIDER STYLING------------*/
+
+#carousel-example-2 {
+    padding-top: 5em;
 }
-*/
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #bfc5cc;
+}
+
+.carousel-item {
+    height: 350px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    color: #fff;
+    text-align: left;
+    width: 40%;
+}
+
+/*------------EXPLAINER------------*/
+#explainer {
+    margin: 5em 0;
+
+}
+
+
+/*------------INSTAGRAM------------*/
+.instagram_img {
+    padding: 0;
+    border: 1px #FFF solid;
+}
+
+/*------------IKONER------------*/
+#ikoner {
+    padding: 5em 0;
+    background-color: #561018;
+}
+
+/*------------OPSKRIFTER------------*/
+#opskrifter {
+    padding: 5em 0;
+}
+
+#opskrifter .row {
+    padding-top: 3em;
+}
 
 /*------------FOOTER------------*/
 footer {
     height: 300px;
-    background-color: darkgrey;
+    background-color: #561018;
 }
 
 
@@ -125,6 +156,19 @@ footer {
     #guide3,
     #guide4 {
         padding-top: 2em;
+    }
+
+    .carousel-item {
+        height: 100%;
+    }
+
+    .carousel-caption {
+        text-align: center;
+        width: 70%;
+    }
+
+    #qoute {
+        font-size: 14px;
     }
 
 }
