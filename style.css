@@ -1,4 +1,5 @@
 /*------------GENERALT STYLING------------*/
+
 section {
     overflow: hidden;
 }
@@ -24,6 +25,7 @@ img {
 }
 
 /*------------HEADER STYLING------------*/
+
 .welcome_tekst {
     margin: 5em 0;
 }
@@ -42,6 +44,7 @@ img {
 }
 
 /*------------GUIDES STYLING------------*/
+
 #guides {
     background-color: #561018;
     color: #FFF;
@@ -107,6 +110,7 @@ img {
 }
 
 /*------------EXPLAINER------------*/
+
 #explainer {
     margin: 5em 0;
 
@@ -114,18 +118,25 @@ img {
 
 
 /*------------INSTAGRAM------------*/
+
 .instagram_img {
     padding: 0;
     border: 1px #FFF solid;
 }
 
+.instagram_img:hover {
+    opacity: 0.9;
+}
+
 /*------------IKONER------------*/
+
 #ikoner {
     padding: 5em 0;
     background-color: #561018;
 }
 
 /*------------OPSKRIFTER------------*/
+
 #opskrifter {
     padding: 5em 0;
 }
@@ -135,6 +146,7 @@ img {
 }
 
 /*------------FOOTER------------*/
+
 footer {
     height: 300px;
     background-color: #561018;
@@ -142,6 +154,7 @@ footer {
 
 
 /*------------MEDIA QUERIES------------*/
+
 @media screen and (max-width: 992px) {
     .lead {
         width: 100%;
