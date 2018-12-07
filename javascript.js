@@ -1,25 +1,17 @@
-//$(document).ready(function () {
-//    $(window).scroll(function () {
-//        $('.fadeinleft').each(function (i) {
-//
-//            var bottom_of_element = $(this).offset().top + $(this).outerHeight();
-//            var bottom_of_window = $(window).scrollTop() + $(window).height();
-//
-//            if (bottom_of_window > bottom_of_element) {
-//                $(this).animate({
-//                    'opacity': '1',
-//                    'margin-left': '0px'
-//                }, 1000);
-//            }
-//
-//        });
-//    });
-//});
+//Menu scroll
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-100px";
+    }
+    prevScrollpos = currentScrollPos;
+}
 
-//$(function () { // $(document).ready shorthand
-//    $('.monster').fadeIn('slow');
-//});
 
+//Symboler fader ind
 $(document).ready(function () {
 
     /* Every time the window is scrolled ... */
