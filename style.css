@@ -41,7 +41,8 @@ img {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Roboto Slab';
     font-weight: 900;
     color: ;
@@ -63,7 +64,9 @@ a {
 }
 
 .welcome_tekst {
-    margin: 15em 0;
+    margin: 12em 0;
+    background-color: rgba(255, 255, 255, 0.39);
+    padding: 30px;
 }
 
 .welcome_tekst h1 {
@@ -192,6 +195,13 @@ a {
     padding-top: 3em;
 }
 
+.inspirationstekst {
+    padding: 0 45px;
+}
+
+.inspirationsbilleder img {
+    padding: 10px 45px;
+}
 
 
 /*------------FOOTER------------*/
