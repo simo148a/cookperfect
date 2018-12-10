@@ -38,6 +38,14 @@ $(document).ready(function () {
     });
 });
 
+//close when click
+/*jQuery(document).ready(function () {
+    jQuery('.navbar-collapse li a').click(function () {
+        jQuery('.navbar-collapse').css('height', '0');
+
+    });
+});*/
+
 
 
 
