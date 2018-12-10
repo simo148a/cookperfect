@@ -126,6 +126,26 @@ a {
 }
 
 
+/*------------EXPLAINER------------*/
+
+#explainer {
+    padding: 5em 0;
+    background-image: url(img/dust_scratches.png);
+
+}
+
+
+/*------------INSTAGRAM------------*/
+
+.instagram_img {
+    padding: 0;
+    border: 1px #FFF solid;
+}
+
+.instagram_img:hover {
+    opacity: 0.9;
+}
+
 /*------------SLIDER STYLING------------*/
 
 #carousel {
@@ -134,6 +154,7 @@ a {
 
 #carousel-example-2 {
     padding-top: 5em;
+
 }
 
 .carousel-indicators li {
@@ -157,30 +178,17 @@ a {
     width: 40%;
 }
 
-/*------------EXPLAINER------------*/
+/*------------FORHANDLER------------*/
 
 #forhandler {
     padding: 5em 0;
     background-image: url(img/dust_scratches.png);
-
-}
-
-
-/*------------INSTAGRAM------------*/
-
-.instagram_img {
-    padding: 0;
-    border: 1px #FFF solid;
-}
-
-.instagram_img:hover {
-    opacity: 0.9;
 }
 
 /*------------IKONER------------*/
 
 #ikoner {
-    padding: 5em 0;
+    padding: 1em 0;
     background-color: #561018;
 }
 
