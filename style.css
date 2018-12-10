@@ -211,6 +211,19 @@ a {
     padding: 10px 45px;
 }
 
+.valdemarsro_tekst {
+    padding: 20px 45px;
+}
+
+.valdemarsro_billeder {
+    padding: 0 45px;
+}
+
+.valdemarsro_billeder img {
+    padding: 4px 0px;
+}
+
+
 
 /*------------FOOTER------------*/
 
