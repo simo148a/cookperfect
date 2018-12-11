@@ -54,10 +54,6 @@ a {
 
 /*------------BURGERMENU STYLING------------*/
 
-
-
-
-
 /*------------HEADER STYLING------------*/
 
 #welcome {
@@ -71,7 +67,7 @@ a {
 }
 
 .welcome_tekst {
-    margin: 8em 0;
+    margin: 6em 0em;
     /*	background-color: rgba(255, 255, 255, 0.39);*/
     padding: 30px;
     z-index: 5;
@@ -79,7 +75,7 @@ a {
 }
 
 .welcome_tekst h1 {
-    font-size: 6em;
+    font-size: 6vw;
     color: white;
 }
 
@@ -87,14 +83,47 @@ a {
     font-size: 2em;
 }
 
-.btn {
-    background-color: #A32026;
-    border: none;
+
+.pilned {
+    height: 25vw;
+    background-size: cover;
+    margin: 0 auto;
 }
 
-.btn:hover {
-    background-color: #561018;
+.arrow {
+    width: 5%;
+    height: 10%;
+    background-image: url(img/arrow_down.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 0 auto;
+    left: 47.5%;
+
+    animation-name: arrow_kf;
+    animation-duration: 0.8s;
+    /**animation-fill-mode:**/
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+
 }
+
+@keyframes arrow_kf {
+    0% {
+        top: 40vw;
+    }
+
+    100% {
+        top: 43vw;
+    }
+}
+
+.arrow:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
 
 /*------------GUIDES STYLING------------*/
 
