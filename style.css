@@ -56,16 +56,20 @@ a {
 /*------------HEADER STYLING------------*/
 
 #welcome {
-    background-image: url(img/red-meat-splash.jpg);
     background-color: rgba(114, 38, 38, 0.9);
     background-size: cover;
+}
 
+#splashvideo {
+    width: 100%;
+    position: absolute;
 }
 
 .welcome_tekst {
     margin: 12em 0;
     background-color: rgba(255, 255, 255, 0.39);
     padding: 30px;
+    z-index: 5;
 }
 
 .welcome_tekst h1 {
