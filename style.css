@@ -1,65 +1,65 @@
 /*------------GENERALT STYLING------------*/
 
 section {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .navbar {
-    background-color: #fafafa;
-    border-bottom: solid 1px #E5E0DA;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: block;
-    transition: top 0.3s;
-    z-index: 10;
+	background-color: #fafafa;
+	border-bottom: solid 1px #E5E0DA;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+	transition: top 0.3s;
+	z-index: 10;
 }
 
 .navbar a {
-    float: right;
-    display: block;
-    color: #000;
-    text-align: center;
-    padding: 15px 0;
-    text-decoration: none;
-    font-size: 17px;
+	float: right;
+	display: block;
+	color: #000;
+	text-align: center;
+	padding: 15px 0;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 .navbar a:hover {
-    color: #A32026;
+	color: #A32026;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+	text-decoration: none;
+	color: #000;
 }
 
 img {
-    width: 100%;
+	width: 100%;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Roboto Slab';
-    font-weight: 900;
-    color: ;
+	font-family: 'Roboto Slab';
+	font-weight: 900;
+	color: ;
 }
 
 p,
 a {
-    font-family: 'Lato';
+	font-family: 'Lato';
 }
 
 .btn,
 .btn-primary {
-    background-color: #A32026;
-    border: none;
+	background-color: #A32026;
+	border: none;
 }
 
 .btn:hover {
-    background-color: #561018;
+	background-color: #561018;
 }
 
 /*------------BURGERMENU STYLING------------*/
@@ -67,93 +67,93 @@ a {
 /*------------HEADER STYLING------------*/
 
 #welcome {
-    background-color: #fafafa;
-    background-size: cover;
+	background-color: #fafafa;
+	background-size: cover;
 }
 
 #splashvideo {
-    margin-top: 97px;
-    width: 100%;
-    position: absolute;
+	margin-top: 97px;
+	width: 100%;
+	position: absolute;
 }
 
 
 .welcome_tekst {
-    margin-top: 6em;
-    /*	background-color: rgba(255, 255, 255, 0.39);*/
-    padding: 30px;
-    z-index: 5;
+	margin-top: 6em;
+	/*	background-color: rgba(255, 255, 255, 0.39);*/
+	padding: 30px;
+	z-index: 5;
 
 }
 
 .welcome_tekst h1 {
-    font-size: 11vw;
-    color: white;
+	font-size: 11vw;
+	color: white;
 }
 
 .arrow {
-    width: 40px;
-    height: 40px;
-    background-image: url(img/arrow_down.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    margin: 0 auto;
-    left: 45%;
+	width: 40px;
+	height: 40px;
+	background-image: url(img/arrow_down.svg);
+	background-repeat: no-repeat;
+	position: absolute;
+	margin: 0 auto;
+	left: 45%;
 
 
-    animation-name: arrow_kf;
-    animation-duration: 0.8s;
-    /**animation-fill-mode:**/
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
+	animation-name: arrow_kf;
+	animation-duration: 0.8s;
+	/**animation-fill-mode:**/
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
 
 }
 
 @keyframes arrow_kf {
-    0% {
-        top: 56vw;
-    }
+	0% {
+		top: 56vw;
+	}
 
-    100% {
-        top: 59vw;
-    }
+	100% {
+		top: 59vw;
+	}
 }
 
 .arrow:hover {
-    cursor: pointer;
-    opacity: 0.8;
+	cursor: pointer;
+	opacity: 0.8;
 }
 
 /*------------INTRO STYLING------------*/
 
 #intro {
-    background-image: url(img/dust_scratches.png);
+	background-image: url(img/dust_scratches.png);
 }
 
 /*------------GUIDES STYLING------------*/
 
 #guides {
-    background-color: #561018;
-    color: #FFF;
-    padding-bottom: 3em;
-    margin-top: 18%;
+	background-color: #561018;
+	color: #FFF;
+	padding-bottom: 3em;
+	margin-top: 18%;
 }
 
 #guides h2 {
-    margin-top: 0em;
+	margin-top: 0em;
 }
 
 #guide2,
 #guide4 {
-    text-align: right;
+	text-align: right;
 }
 
 #guide1,
 #guide2,
 #guide3,
 #guide4 {
-    padding-top: 2em;
+	padding-top: 2em;
 
 
 }
@@ -162,23 +162,23 @@ a {
 /*------------GUIDES STYLING------------*/
 
 .fadeinleft {
-    position: relative;
-    left: -1000px;
-    opacity: 0;
+	position: relative;
+	left: -1000px;
+	opacity: 0;
 }
 
 .fadeinright {
-    position: relative;
-    left: 1000px;
-    opacity: 0;
+	position: relative;
+	left: 1000px;
+	opacity: 0;
 }
 
 
 /*------------EXPLAINER------------*/
 
 #explainer {
-    padding: 5em 0;
-    background-image: url(img/dust_scratches.png);
+	padding: 5em 0;
+	background-image: url(img/dust_scratches.png);
 
 }
 
@@ -186,142 +186,141 @@ a {
 /*------------INSTAGRAM------------*/
 
 .instagram_img {
-    padding: 0;
-    border: 1px #FFF solid;
+	padding: 0;
+	border: 1px #FFF solid;
 }
 
 .instagram_img:hover {
-    opacity: 0.9;
+	opacity: 0.9;
 }
 
 /*------------SLIDER STYLING------------*/
 
 #carousel {
-    background-image: url(img/dust_scratches.png);
+	background-image: url(img/dust_scratches.png);
 }
 
 #carousel-example-2 {
-    padding-top: 5em;
+	padding-top: 5em;
 
 }
 
 .carousel-indicators li {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #bfc5cc;
-    z-index: 3;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #bfc5cc;
+	z-index: 3;
 }
 
 .carousel-item {
-    height: 100%;
+	height: 100%;
 }
 
 .carousel-caption {
-    position: absolute;
-    bottom: 70px;
-    z-index: 3;
-    color: #fff;
-    text-align: center;
-    width: 70%;
+	position: absolute;
+	bottom: 70px;
+	z-index: 3;
+	color: #fff;
+	text-align: center;
+	width: 70%;
 }
 
 
 .carousel-control-next,
 .carousel-control-prev {
-    top: 90px;
+	top: 90px;
 }
 
 #qoute {
-    font-size: 14px;
-    font-style: italic;
-    font-weight: bolder;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bolder;
 }
 
 
 .person {
-    font-weight: bold;
-    font-style: italic;
+	font-weight: bold;
+	font-style: italic;
 }
 
 /*------------FORHANDLER------------*/
 
 #forhandler {
-    padding: 5em 0;
-    background-image: url(img/dust_scratches.png);
+	padding: 5em 0;
+	background-image: url(img/dust_scratches.png);
 }
 
 /*------------IKONER------------*/
 
 #ikoner {
-    padding: 1em 0;
-    background-color: #561018;
+	padding: 1em 0;
+	background-color: #561018;
 }
 
 /*------------INSPIRATION------------*/
 
 #inspiration {
-    padding: 5em 0;
-    background-image: url(img/dust_scratches.png);
+	padding: 5em 0;
+	background-image: url(img/dust_scratches.png);
 }
 
 #inspiration .row {
-    padding-top: 3em;
+	padding-top: 3em;
 }
 
 .inspirationstekst {
-    padding: 0 45px;
+	padding: 0 45px;
 }
 
 .inspirationsbilleder img {
-    padding: 10px 45px;
+	padding: 10px 45px;
 }
 
 .valdemarsro_tekst {
-    padding: 20px 45px;
+	padding: 20px 45px;
 }
 
 .valdemarsro_billeder {
-    padding: 0 45px;
+	padding: 0 45px;
 }
 
 .valdemarsro_billeder img {
-    padding: 4px 0px;
+	padding: 4px 0px;
 }
 
 
 
 /*------------FOOTER------------*/
 
-footer {
-    height: 200px;
-    background-color: #561018;
+#footer {
+	height: 200px;
+	background-color: #561018;
 }
 
 .social,
 .kontakt_oplysninger {
-    padding-top: 3em;
-    background-color: #561018;
+	padding-top: 3em;
 }
 
 .kontakt_oplysninger {
-    color: #FFF;
+	color: #FFF;
 }
 
 .social_media {
-    width: 3em;
-    padding: 2em;
+	width: 3em;
+	padding: 5px;
 }
 
 
 #footer_btn {
-    margin-top: 10px;
-    background-color: #FFF;
-    color: #000;
+	margin-top: 10px;
+	background-color: #FFF;
+	color: #000;
 }
 
 #footer_btn:hover {
-    color: #A32026;
+	color: #A32026;
 }
 
 
@@ -331,119 +330,120 @@ footer {
 
 @media screen and (min-width: 414px) {
 
-    #guides {
-        margin-top: 27%;
-    }
+	#guides {
+		margin-top: 27%;
+	}
 
 }
 
 @media screen and (min-width: 576px) {
 
-    .arrow {
-        width: 8%;
-        height: 9%;
-        left: 46%;
+	.arrow {
+		width: 8%;
+		height: 9%;
+		left: 46%;
 
-    }
+	}
 
-    @keyframes arrow_kf {
-        0% {
-            top: 51vw;
-        }
+	@keyframes arrow_kf {
+		0% {
+			top: 51vw;
+		}
 
-        100% {
-            top: 54vw;
-        }
-    }
+		100% {
+			top: 54vw;
+		}
+	}
 
-    #guide1 {
-        padding-top: 5em;
-    }
+	#guide1 {
+		padding-top: 5em;
+	}
 }
 
 @media screen and (min-width: 768px) {
 
-    .arrow {
-        width: 8%;
-        height: 9%;
-        left: 46%;
+	.arrow {
+		width: 8%;
+		height: 9%;
+		left: 46%;
 
-    }
-    @keyframes arrow_kf {
-        0% {
-            top: 49vw;
-        }
+	}
 
-        100% {
-            top: 52vw;
-        }
-    }
+	@keyframes arrow_kf {
+		0% {
+			top: 49vw;
+		}
 
-    #guides {
-        margin-top: 34%;
-    }
+		100% {
+			top: 52vw;
+		}
+	}
+
+	#guides {
+		margin-top: 34%;
+	}
 }
 
 
 @media screen and (min-width: 992px) {
 
-    #splashvideo {
-        margin-top: 0px;
-        width: 100vw;
-        position: absolute;
-    }
+	#splashvideo {
+		margin-top: 0px;
+		width: 100vw;
+		position: absolute;
+	}
 
-    .arrow {
-        width: 5%;
-        height: 10%;
-        left: 47.5%;
-    }
+	.arrow {
+		width: 5%;
+		height: 10%;
+		left: 47.5%;
+	}
 
 
-    @keyframes arrow_kf {
-        0% {
-            top: 40vw;
-        }
+	@keyframes arrow_kf {
+		0% {
+			top: 40vw;
+		}
 
-        100% {
-            top: 43vw;
-        }
-    }
+		100% {
+			top: 43vw;
+		}
+	}
 
-    #guides {
-        margin-top: 26vw;
-    }
+	#guides {
+		margin-top: 26vw;
+	}
 
-    #guides h2 {
-        margin-top: 2em;
-    }
+	#guides h2 {
+		margin-top: 2em;
+	}
 
-    .carousel-item {
-        height: 350px;
-    }
+	.carousel-item {
+		height: 350px;
+	}
 
-    .carousel-caption {
-        text-align: left;
-        width: 40%;
-    }
+	.carousel-caption {
+		text-align: left;
+		width: 40%;
+	}
 
-    #qoute {
-        font-size: 22px;
-    }
+	#qoute {
+		font-size: 22px;
+	}
 
-    .social_media {
-        padding-bottom: 5px;
-    }
+	.social_media {
+		padding-bottom: 5px;
+	}
 
 }
 
 @media screen and (min-width: 1100px) {
 
-    #splashvideo {
-        margin-top: 0px;
-    }
+	#splashvideo {
+		margin-top: 0px;
+	}
 
 
-    #guides {
-        margin-top: 28vw;
-    }
+	#guides {
+		margin-top: 28vw;
+	}
