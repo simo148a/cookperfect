@@ -41,7 +41,8 @@ img {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     font-family: 'Roboto Slab';
     font-weight: 900;
     color: ;
@@ -140,7 +141,8 @@ a {
 
 .cookperfect1 img {
     position: relative;
-    top: 0%;
+    top: 40%;
+    ;
 }
 
 .introtekst {
@@ -150,7 +152,7 @@ a {
 
 .cookperfect2 img {
     position: relative;
-    top: 20%
+    top: -30%;
 }
 
 /*------------GUIDES STYLING------------*/
@@ -175,8 +177,6 @@ a {
 #guide3,
 #guide4 {
     padding-top: 2em;
-
-
 }
 
 
@@ -272,6 +272,15 @@ a {
     background-image: url(img/dust_scratches.png);
 }
 
+.forhandler_icon {
+    width: 2em;
+    padding: 0 5px;
+}
+
+.forhandler_linje {
+    margin-bottom: 2em;
+}
+
 /*------------IKONER------------*/
 
 #ikoner {
@@ -308,6 +317,14 @@ a {
 
 .valdemarsro_billeder img {
     padding: 4px 0px;
+}
+
+.grill_oven img {
+    margin: 10px 0;
+}
+
+.grill_oven li {
+    margin: 8px 0;
 }
 
 
