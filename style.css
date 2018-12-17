@@ -342,6 +342,7 @@ a {
 #footer {
     min-height: 200px;
     background-color: #561018;
+    padding-bottom: 40px;
 }
 
 .social,
@@ -356,6 +357,7 @@ a {
 .social_media {
     width: 3em;
     padding: 5px;
+
 }
 
 
