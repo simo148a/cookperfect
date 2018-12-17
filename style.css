@@ -136,7 +136,7 @@ a {
 
 #intro {
     background-image: url(img/dust_scratches.png);
-    padding: 40% 0 10%;
+    padding-top: 27%;
 }
 
 #intro img {
@@ -147,18 +147,18 @@ a {
 
 .cookperfect1 img {
     position: relative;
-    top: 40%;
-    ;
+    top: 20%;
 }
 
 .introtekst {
     position: relative;
-    top: 0%;
+    font-size: 18px;
 }
 
 .cookperfect2 img {
     position: relative;
-    top: -30%;
+    top: -5%;
+    margin-bottom: 10px
 }
 
 /*------------GUIDES STYLING------------*/
@@ -166,7 +166,7 @@ a {
 #guides {
     background-color: #561018;
     color: #FFF;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
 }
 
 #guides h2 {
@@ -182,11 +182,8 @@ a {
 #guide2,
 #guide3,
 #guide4 {
-    padding-top: 2em;
+    padding-top: 1em;
 }
-
-
-/*------------GUIDES STYLING------------*/
 
 .fadeinleft {
     position: relative;
@@ -204,9 +201,12 @@ a {
 /*------------EXPLAINER------------*/
 
 #explainer {
-    padding: 5em 0;
+    padding: 3em 0;
     background-image: url(img/dust_scratches.png);
+}
 
+#explainer video {
+    margin: 1em 0 0;
 }
 
 
@@ -229,8 +229,12 @@ a {
 /*------------FORHANDLER------------*/
 
 #forhandler {
-    padding: 5em 0;
+    padding: 3em 0;
     background-image: url(img/dust_scratches.png);
+}
+
+#forhandler img {
+    margin-bottom: 20px;
 }
 
 .forhandler_icon {
@@ -246,10 +250,11 @@ a {
 
 #carousel {
     background-image: url(img/dust_scratches.png);
+    padding-bottom: 1em;
 }
 
 #carousel-example-2 {
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 
 }
 
@@ -299,15 +304,27 @@ a {
     background-color: #561018;
 }
 
+.desktopinfografik {
+    display: none;
+}
+
 /*------------INSPIRATION------------*/
 
 #inspiration {
-    padding: 5em 0;
+    padding: 1em 0 2em;
     background-image: url(img/dust_scratches.png);
 }
 
+#inspiration img {
+    margin-bottom: 25px;
+}
+
+#inspiration .btn {
+    margin: 15px 0 0;
+}
+
 #inspiration .row {
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 .inspirationstekst {
@@ -365,7 +382,7 @@ a {
 
 
 #footer_btn {
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: #FFF;
     color: #000;
 }
@@ -382,11 +399,24 @@ a {
 @media screen and (min-width: 414px) {
 
     #intro {
-        padding: 37% 0 5%;
+        padding-top: 32%;
+    }
+
+    .cookperfect1 img {
+        top: 25%;
+    }
+
+    .cookperfect2 img {
+        top: -15%;
+        margin-bottom: 0px;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    #guide1 {
+        padding-top: 2em;
     }
 
 
@@ -398,7 +428,6 @@ a {
         width: 8%;
         height: 9%;
         left: 46%;
-
     }
 
     @keyframes arrow_kf {
@@ -411,11 +440,25 @@ a {
         }
     }
 
+    .cookperfect1 img {
+        top: 30%;
+    }
+
+    .cookperfect2 img {
+        top: -25%;
+    }
+
     #guide1 {
-        padding-top: 5em;
+        padding-top: 1em;
+    }
+
+    #instagram {
+        padding: 0px;
     }
 
 }
+
+/*COL-MD*/
 
 @media screen and (min-width: 768px) {
 
@@ -423,7 +466,6 @@ a {
         width: 8%;
         height: 9%;
         left: 46%;
-
     }
 
     @keyframes arrow_kf {
@@ -437,11 +479,48 @@ a {
     }
 
     #intro {
-        padding: 40% 0 5%;
+        padding-top: 35%;
     }
 
+    .introtekst {
+        font-size: 25px;
+    }
+
+    .cookperfect1 img {
+        top: 30%;
+    }
+
+    .cookperfect2 img {
+        top: -20%;
+    }
+
+    #guide1 {
+        padding-top: 3em;
+    }
+
+    .carousel-item {
+        height: 350px;
+    }
+
+    .carousel-caption {
+        text-align: left;
+        width: 50%;
+    }
+
+    #qoute {
+        font-size: 22px;
+    }
+
+    .desktopinfografik {
+        display: block;
+    }
+
+    .mobilinfografik {
+        display: none;
+    }
 }
 
+/*COL-LG*/
 
 @media screen and (min-width: 992px) {
 
@@ -457,8 +536,6 @@ a {
         left: 47.5%;
     }
 
-
-
     @keyframes arrow_kf {
         0% {
             top: 40vw;
@@ -469,26 +546,24 @@ a {
         }
     }
 
+    #intro {
+        padding-top: 25%;
+    }
+
+    .cookperfect1 img {
+        top: 40%;
+    }
+
+    .cookperfect2 img {
+        top: -25%;
+    }
 
     #guides h2 {
         margin-top: 2em;
     }
 
-    #instagram {
-        padding: 0px;
-    }
-
-    .carousel-item {
-        height: 350px;
-    }
-
-    .carousel-caption {
-        text-align: left;
-        width: 40%;
-    }
-
-    #qoute {
-        font-size: 22px;
+    #explainer video {
+        margin: 0em 0 0;
     }
 
     .social_media {
@@ -503,7 +578,8 @@ a {
         margin-top: 0px;
     }
 
-
     #intro {
-        padding: 34% 0 5%;
+        padding-top: 30%;
     }
+
+}
