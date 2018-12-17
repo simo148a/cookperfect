@@ -19,7 +19,6 @@ section {
     float: right;
     display: block;
     color: #000;
-    text-align: center;
     padding: 15px 0;
     text-decoration: none;
     font-size: 17px;
@@ -127,6 +126,10 @@ a {
 .arrow:hover {
     cursor: pointer;
     opacity: 0.8;
+}
+
+#flag img {
+    width: 25px;
 }
 
 /*------------INTRO STYLING------------*/
