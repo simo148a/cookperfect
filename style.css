@@ -45,7 +45,10 @@ h4,
 h5 {
     font-family: 'Roboto Slab';
     font-weight: 900;
-    color: ;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 p,
@@ -206,9 +209,14 @@ a {
 
 /*------------INSTAGRAM------------*/
 
+#instagram {
+    padding: 0 15px;
+    background-image: url(img/dust_scratches.png);
+}
+
 .instagram_img {
-    padding: 0;
-    border: 1px #FFF solid;
+    padding: 3px;
+    /*border: 1px #FFF solid;*/
 }
 
 .instagram_img:hover {
@@ -372,6 +380,11 @@ a {
         padding: 37% 0 5%;
     }
 
+    h2 {
+        font-size: 30px;
+    }
+
+
 }
 
 @media screen and (min-width: 576px) {
@@ -396,6 +409,7 @@ a {
     #guide1 {
         padding-top: 5em;
     }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -420,6 +434,7 @@ a {
     #intro {
         padding: 40% 0 5%;
     }
+
 }
 
 
@@ -438,6 +453,7 @@ a {
     }
 
 
+
     @keyframes arrow_kf {
         0% {
             top: 40vw;
@@ -451,6 +467,10 @@ a {
 
     #guides h2 {
         margin-top: 2em;
+    }
+
+    #instagram {
+        padding: 0px;
     }
 
     .carousel-item {
