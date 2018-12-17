@@ -38,12 +38,11 @@ $(document).ready(function () {
 });
 
 //close when click
-/*jQuery(document).ready(function () {
+jQuery(document).ready(function () {
     jQuery('.navbar-collapse li a').click(function () {
-        jQuery('.navbar-collapse').css('height', '0');
-
+        jQuery('#navbarNav').toggleClass('show');
     });
-});*/
+});
 
 
 //Symboler fader ind
