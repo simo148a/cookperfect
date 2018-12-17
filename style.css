@@ -226,14 +226,30 @@ a {
     opacity: 0.9;
 }
 
-/*------------SLIDER STYLING------------*/
+/*------------FORHANDLER------------*/
+
+#forhandler {
+    padding: 5em 0;
+    background-image: url(img/dust_scratches.png);
+}
+
+.forhandler_icon {
+    width: 2em;
+    padding: 0 5px;
+}
+
+.forhandler_linje {
+    margin-bottom: 2em;
+}
+
+/*------------CAROUSEL STYLING------------*/
 
 #carousel {
     background-image: url(img/dust_scratches.png);
 }
 
 #carousel-example-2 {
-    padding-top: 5em;
+    margin-bottom: 5em;
 
 }
 
@@ -274,22 +290,6 @@ a {
 .person {
     font-weight: bold;
     font-style: italic;
-}
-
-/*------------FORHANDLER------------*/
-
-#forhandler {
-    padding: 5em 0;
-    background-image: url(img/dust_scratches.png);
-}
-
-.forhandler_icon {
-    width: 2em;
-    padding: 0 5px;
-}
-
-.forhandler_linje {
-    margin-bottom: 2em;
 }
 
 /*------------IKONER------------*/
