@@ -201,7 +201,7 @@ a {
 /*------------EXPLAINER------------*/
 
 #explainer {
-    padding: 3em 0;
+    padding: 4em 0;
     background-image: url(img/dust_scratches.png);
 }
 
@@ -212,6 +212,14 @@ a {
 
 .explainer_img {
     padding: 0 1em;
+}
+
+.explainer_tekst {
+    display: none;
+}
+
+.explainermobil_tekst {
+    margin-bottom: 2em;
 }
 
 /*------------INSTAGRAM------------*/
@@ -561,6 +569,13 @@ a {
 
     #explainer video {
         margin: 0em 0 0;
+    }
+
+    .explainermobil_tekst {
+        display: none;
+    }
+    .explainer_tekst {
+        display: block;
     }
 
     .social_media {
