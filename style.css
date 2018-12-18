@@ -82,16 +82,21 @@ a {
 
 
 .welcome_tekst {
-    margin-top: 6em;
+    margin-top: 120px;
     /*	background-color: rgba(255, 255, 255, 0.39);*/
-    padding: 30px;
+    padding: 8%;
     z-index: 5;
-
+    text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
 }
 
 .welcome_tekst h1 {
     font-size: 11vw;
-    color: white;
+    color: #ffffff;
+}
+
+.welcome_tekst h3 {
+    font-size: 2.3vw;
+    color: #ffff;
 }
 
 .arrow {
@@ -115,11 +120,11 @@ a {
 
 @keyframes arrow_kf {
     0% {
-        top: 56vw;
+        top: 60vw;
     }
 
     100% {
-        top: 59vw;
+        top: 63vw;
     }
 }
 
@@ -136,7 +141,7 @@ a {
 
 #intro {
     background-image: url(img/dust_scratches.png);
-    padding-top: 27%;
+    padding-top: 17%;
 }
 
 #intro img {
@@ -284,17 +289,18 @@ a {
 
 .carousel-caption {
     position: absolute;
-    bottom: 70px;
+    bottom: 8vw;
     z-index: 3;
     color: #fff;
     text-align: center;
     width: 70%;
+    text-shadow: 0.7px 0 0 #000, 0 -0.7px 0 #000, 0 0.7px 0 #000, -0.7px 0 0 #000;
 }
 
 
 .carousel-control-next,
 .carousel-control-prev {
-    top: 90px;
+    top: 0vw;
 }
 
 #qoute {
@@ -372,12 +378,11 @@ a {
 #footer {
     min-height: 200px;
     background-color: #561018;
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 
-.social,
-.kontakt_oplysninger {
-    padding-top: 3em;
+.social {
+    padding-top: 2em;
 }
 
 .kontakt_oplysninger {
@@ -405,8 +410,18 @@ a {
 
 @media screen and (min-width: 414px) {
 
+    @keyframes arrow_kf {
+        0% {
+            top: 54vw;
+        }
+
+        100% {
+            top: 57vw;
+        }
+    }
+
     #intro {
-        padding-top: 32%;
+        padding-top: 18%;
     }
 
     .cookperfect1 img {
@@ -424,6 +439,9 @@ a {
 
     #guide1 {
         padding-top: 2em;
+    }
+    .carousel-caption {
+        bottom: 15vw;
     }
 }
 
@@ -460,7 +478,9 @@ a {
     #instagram {
         padding: 0px;
     }
-
+    .carousel-caption {
+        bottom: 14vw;
+    }
 }
 
 /*COL-MD*/
@@ -484,7 +504,7 @@ a {
     }
 
     #intro {
-        padding-top: 35%;
+        padding-top: 20%;
     }
 
     .introtekst {
@@ -510,6 +530,7 @@ a {
     .carousel-caption {
         text-align: left;
         width: 50%;
+        bottom: 6vw;
     }
 
     #qoute {
@@ -552,7 +573,7 @@ a {
     }
 
     #intro {
-        padding-top: 25%;
+        padding-top: 11%;
     }
 
     .cookperfect1 img {
@@ -584,14 +605,14 @@ a {
 
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1200px) {
 
     #splashvideo {
         margin-top: 0px;
     }
 
     #intro {
-        padding-top: 30%;
+        padding-top: 16%;
     }
 
 }
