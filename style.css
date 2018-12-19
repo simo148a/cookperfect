@@ -142,7 +142,7 @@ a {
 /*------------INTRO STYLING------------*/
 
 #intro {
-    background-image: url(img/dust_scratches.png);
+    background-image: url(img/dust_scratches.jpg);
     padding-top: 17%;
 }
 
@@ -442,6 +442,7 @@ a {
     #guide1 {
         padding-top: 2em;
     }
+
     .carousel-caption {
         bottom: 15vw;
     }
@@ -480,6 +481,7 @@ a {
     #instagram {
         padding: 0px;
     }
+
     .carousel-caption {
         bottom: 14vw;
     }
@@ -597,6 +599,7 @@ a {
     .explainermobil_tekst {
         display: none;
     }
+
     .explainer_tekst {
         display: block;
     }
