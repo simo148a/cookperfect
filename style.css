@@ -170,6 +170,10 @@ a {
 
 /*------------GUIDES STYLING------------*/
 
+#telefon {
+    background-image: url(img/dust_scratches.jpg);
+}
+
 #guides {
     background-color: #561018;
     color: #FFF;
@@ -200,7 +204,7 @@ a {
 
 #explainer {
     padding: 4em 0;
-    background-image: url(img/dust_scratches.png);
+    background-image: url(img/dust_scratches.jpg);
 }
 
 #explainer video {
@@ -224,7 +228,7 @@ a {
 
 #instagram {
     padding: 0 15px;
-    background-image: url(img/dust_scratches.png);
+    background-image: url(img/dust_scratches.jpg);
 }
 
 .instagram_img {
@@ -240,7 +244,7 @@ a {
 
 #forhandler {
     padding: 3em 0;
-    background-image: url(img/dust_scratches.png);
+    background-image: url(img/dust_scratches.jpg);
 }
 
 .forhandler_icon {
@@ -260,7 +264,7 @@ a {
 /*------------CAROUSEL STYLING------------*/
 
 #carousel {
-    background-image: url(img/dust_scratches.png);
+    background-image: url(img/dust_scratches.jpg);
     padding-bottom: 1em;
 }
 
@@ -324,7 +328,7 @@ a {
 
 #inspiration {
     padding: 1em 0 2em;
-    background-image: url(img/dust_scratches.png);
+    background-image: url(img/dust_scratches.jpg);
 }
 
 #inspiration img {
