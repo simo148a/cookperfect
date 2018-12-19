@@ -86,17 +86,19 @@ a {
     /*	background-color: rgba(255, 255, 255, 0.39);*/
     padding: 8%;
     z-index: 5;
-    text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
+
 }
 
 .welcome_tekst h1 {
     font-size: 11vw;
     color: #ffffff;
+    text-shadow: 0.2px 0 0 #561018, 0 -0.2px 0 #561018, 0 0.2px 0 #561018, -0.2px 0 0 #561018;
 }
 
 .welcome_tekst h3 {
     font-size: 2.3vw;
     color: #ffff;
+    text-shadow: 0.5px 0 0 #561018, 0 -0.5px 0 #561018, 0 0.5px 0 #561018, -0.5px 0 0 #561018;
 }
 
 .arrow {
