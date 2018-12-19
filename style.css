@@ -243,10 +243,6 @@ a {
     background-image: url(img/dust_scratches.png);
 }
 
-#forhandler img {
-    margin-bottom: 20px;
-}
-
 .forhandler_icon {
     width: 2em;
     padding: 0 5px;
@@ -254,6 +250,11 @@ a {
 
 .forhandler_linje {
     margin-bottom: 2em;
+}
+
+#forhandler a:hover {
+    text-decoration: none;
+    color: #a32026;
 }
 
 /*------------CAROUSEL STYLING------------*/
