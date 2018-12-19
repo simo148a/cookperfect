@@ -184,7 +184,16 @@ a {
 .guide2,
 .guide3,
 .guide4 {
-    padding-top: 1em;
+    padding-top: 0em;
+    align-items: center;
+}
+
+.guidetelefon {
+    align-self: center;
+}
+
+.guidepunkter {
+    margin-top: 1em;
 }
 
 .fadeinleft {
@@ -435,6 +444,10 @@ a {
         font-size: 25px;
     }
 
+    #guides h2 {
+        font-size: 20px;
+    }
+
     #guide1 {
         padding-top: 2em;
     }
@@ -585,7 +598,7 @@ a {
     }
 
     #guides h2 {
-        margin-top: 2em;
+        margin-top: 0.5em;
     }
 
     #explainer video {
