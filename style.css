@@ -176,19 +176,10 @@ a {
     padding-bottom: 2em;
 }
 
-#guides h2 {
-    margin-top: 0em;
-}
-
-#guide2,
-#guide4 {
-    text-align: right;
-}
-
-#guide1,
-#guide2,
-#guide3,
-#guide4 {
+.guide1,
+.guide2,
+.guide3,
+.guide4 {
     padding-top: 1em;
 }
 
