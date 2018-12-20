@@ -195,18 +195,6 @@ a {
     margin-bottom: 2em;
 }
 
-.fadeinleft {
-    position: relative;
-    left: -1000px;
-    opacity: 0;
-}
-
-.fadeinright {
-    position: relative;
-    left: 1000px;
-    opacity: 0;
-}
-
 
 /*------------EXPLAINER------------*/
 
@@ -253,6 +241,10 @@ a {
 #forhandler {
     padding: 3em 0;
     background-image: url(img/dust_scratches.jpg);
+}
+
+#forhandler img {
+    padding-bottom: 15px;
 }
 
 .forhandler_icon {
@@ -542,6 +534,22 @@ a {
         align-items: center;
         margin-top: 0;
         text-align: left;
+    }
+
+    .fadeinleft {
+        position: relative;
+        left: -1000px;
+        opacity: 0;
+    }
+
+    .fadeinright {
+        position: relative;
+        left: 1000px;
+        opacity: 0;
+    }
+
+    #forhandler img {
+        padding-bottom: 0px;
     }
 
     .carousel-item {
