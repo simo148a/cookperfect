@@ -1,39 +1,39 @@
 /*------------GENERALT STYLING------------*/
 
 section {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .navbar {
-    background-color: #fafafa;
-    border-bottom: solid 1px #E5E0DA;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: block;
-    transition: top 0.3s;
-    z-index: 10;
+	background-color: #fafafa;
+	border-bottom: solid 1px #E5E0DA;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+	transition: top 0.3s;
+	z-index: 10;
 }
 
 .navbar a {
-    float: right;
-    display: block;
-    color: #000;
-    padding: 15px 0;
-    font-size: 17px;
+	float: right;
+	display: block;
+	color: #000;
+	padding: 15px 0;
+	font-size: 17px;
 }
 
 .navbar a:hover {
-    color: #A32026;
+	color: #A32026;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+	text-decoration: none;
+	color: #000;
 }
 
 img {
-    width: 100%;
+	width: 100%;
 }
 
 h1,
@@ -41,133 +41,133 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Roboto Slab';
-    font-weight: 900;
+	font-family: 'Roboto Slab';
+	font-weight: 900;
 }
 
 h2 {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 p,
 a {
-    font-family: 'Lato';
+	font-family: 'Lato';
 }
 
 .btn,
 .btn-primary {
-    background-color: #A32026;
-    border: none;
+	background-color: #A32026;
+	border: none;
 }
 
 .btn:hover {
-    background-color: #561018;
+	background-color: #561018;
 }
 
 /*------------HEADER STYLING------------*/
 
 #welcome {
-    background-color: #fafafa;
-    background-size: cover;
+	background-color: #fafafa;
+	background-size: cover;
 }
 
 #splashvideo {
-    margin-top: 97px;
-    width: 100%;
-    position: absolute;
-    display: none;
+	margin-top: 97px;
+	width: 100%;
+	position: absolute;
+	display: none;
 }
 
 #splashbillede {
-    margin-top: 97px;
-    width: 100%;
-    position: absolute;
+	margin-top: 97px;
+	width: 100%;
+	position: absolute;
 }
 
 
 .welcome_tekst {
-    margin-top: 120px;
-    padding: 8%;
-    z-index: 5;
+	margin-top: 120px;
+	padding: 8%;
+	z-index: 5;
 
 }
 
 .welcome_tekst h1 {
-    font-size: 11vw;
-    color: #ffffff;
-    text-shadow: 0.2px 0 0 #561018, 0 -0.2px 0 #561018, 0 0.2px 0 #561018, -0.2px 0 0 #561018;
+	font-size: 11vw;
+	color: #ffffff;
+	text-shadow: 0.2px 0 0 #561018, 0 -0.2px 0 #561018, 0 0.2px 0 #561018, -0.2px 0 0 #561018;
 }
 
 .welcome_tekst h3 {
-    font-size: 2.3vw;
-    color: #ffff;
-    text-shadow: 0.5px 0 0 #561018, 0 -0.5px 0 #561018, 0 0.5px 0 #561018, -0.5px 0 0 #561018;
+	font-size: 2.3vw;
+	color: #ffff;
+	text-shadow: 0.5px 0 0 #561018, 0 -0.5px 0 #561018, 0 0.5px 0 #561018, -0.5px 0 0 #561018;
 }
 
 .arrow {
-    width: 40px;
-    height: 40px;
-    background-image: url(img/arrow_down.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    margin: 0 auto;
-    left: 45%;
+	width: 40px;
+	height: 40px;
+	background-image: url(img/arrow_down.svg);
+	background-repeat: no-repeat;
+	position: absolute;
+	margin: 0 auto;
+	left: 45%;
 
 
-    animation-name: arrow_kf;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
+	animation-name: arrow_kf;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
 
 }
 
 @keyframes arrow_kf {
-    0% {
-        top: 60vw;
-    }
+	0% {
+		top: 60vw;
+	}
 
-    100% {
-        top: 63vw;
-    }
+	100% {
+		top: 63vw;
+	}
 }
 
 .arrow:hover {
-    cursor: pointer;
-    opacity: 0.8;
+	cursor: pointer;
+	opacity: 0.8;
 }
 
 #flag img {
-    width: 25px;
+	width: 25px;
 }
 
 /*------------INTRO STYLING------------*/
 
 #intro {
-    background-image: url(img/dust_scratches.jpg);
-    padding-top: 17%;
+	background-image: url(img/dust_scratches.jpg);
+	padding-top: 17%;
 }
 
 #intro img {
-    width: 100%;
+	width: 100%;
 }
 
 #intro .row {}
 
 .cookperfect1 img {
-    position: relative;
-    top: 20%;
+	position: relative;
+	top: 20%;
 }
 
 .introtekst {
-    position: relative;
-    font-size: 18px;
+	position: relative;
+	font-size: 18px;
 }
 
 .cookperfect2 img {
-    position: relative;
-    top: -5%;
-    margin-bottom: 10px
+	position: relative;
+	top: -5%;
+	margin-bottom: 10px
 }
 
 
@@ -175,268 +175,277 @@ a {
 /*-------------PARALLAX STYLING-------------*/
 
 .parallax {
-    /* The image used */
-    background-image: url("img/parallax.jpg");
+	/* The image used */
+	background-image: url("img/parallax.jpg");
 
-    /* Set a specific height */
-    height: 350px;
+	/* Set a specific height */
+	height: 350px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 1em 0 5em 0;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 1em 0 5em 0;
 }
 
 .parallax_text {
-    text-align: center;
-    font-size: 18px;
-    padding: 5%;
+	text-align: center;
+	font-size: 18px;
+	padding: 5%;
 }
 
 #frihed {
-    background-image: url(img/dust_scratches.jpg);
+	background-image: url(img/dust_scratches.jpg);
 }
 
 .frihed_tekst {
-    color: #FFF;
-    padding-top: 4em;
+	color: #FFF;
+	padding-top: 7em;
 
 }
 
+#frihed_quote {
+	font-weight: bolder;
+	text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
+}
+
+#frihed_quote p {
+	font-size: 18px;
+	font-style: italic;
+}
 
 /*------------GUIDES STYLING------------*/
 
 #telefon {
-    background-image: url(img/dust_scratches.jpg);
+	background-image: url(img/dust_scratches.jpg);
 }
 
 #guides {
-    background-color: #561018;
-    color: #FFF;
-    padding: 3em 0;
+	background-color: #561018;
+	color: #FFF;
+	padding: 3em 0;
 }
 
 .guide1,
 .guide2,
 .guide3,
 .guide4 {
-    align-items: center;
-    margin-top: 1em;
-    text-align: center;
+	align-items: center;
+	margin-top: 1em;
+	text-align: center;
 }
 
 .guidetelefon {
-    align-self: center;
-    margin-bottom: 2em;
+	align-self: center;
+	margin-bottom: 2em;
 }
 
 
 /*------------EXPLAINER------------*/
 
 #explainer {
-    padding: 4em 0;
-    background-image: url(img/dust_scratches.jpg);
+	padding: 4em 0;
+	background-image: url(img/dust_scratches.jpg);
 }
 
 #explainer video {
-    margin: 1em 0 0;
+	margin: 1em 0 0;
 }
 
 
 .explainer_img {
-    padding: 0 1em;
+	padding: 0 1em;
 }
 
 .explainer_tekst {
-    display: none;
+	display: none;
 }
 
 .explainermobil_tekst {
-    margin-bottom: 2em;
+	margin-bottom: 2em;
 }
 
 /*------------INSTAGRAM------------*/
 
 #instagram {
-    padding: 0 15px;
-    background-image: url(img/dust_scratches.jpg);
+	padding: 0 15px;
+	background-image: url(img/dust_scratches.jpg);
 }
 
 .instagram_img {
-    padding: 3px;
+	padding: 3px;
 }
 
 .instagram_img:hover {
-    opacity: 0.9;
+	opacity: 0.9;
 }
 
 /*------------FORHANDLER------------*/
 
 #forhandler {
-    padding: 3em 0;
-    background-image: url(img/dust_scratches.jpg);
+	padding: 3em 0;
+	background-image: url(img/dust_scratches.jpg);
 }
 
 #forhandler img {
-    padding-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .forhandler_icon {
-    width: 2em;
-    padding: 0 5px;
+	width: 2em;
+	padding: 0 5px;
 }
 
 .forhandler_linje {
-    margin-bottom: 2em;
+	margin-bottom: 2em;
 }
 
 #forhandler a:hover {
-    text-decoration: none;
-    color: #a32026;
+	text-decoration: none;
+	color: #a32026;
 }
 
 /*------------CAROUSEL STYLING------------*/
 
 #carousel {
-    background-image: url(img/dust_scratches.jpg);
-    padding-bottom: 1em;
+	background-image: url(img/dust_scratches.jpg);
+	padding-bottom: 1em;
 }
 
 #carousel-example-2 {
-    margin-bottom: 2em;
+	margin-bottom: 2em;
 
 }
 
 .carousel-indicators li {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #bfc5cc;
-    z-index: 3;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #bfc5cc;
+	z-index: 3;
 }
 
 .carousel-item {
-    height: 100%;
+	height: 100%;
 }
 
 .carousel-caption {
-    position: absolute;
-    bottom: 8vw;
-    z-index: 3;
-    color: #fff;
-    text-align: center;
-    width: 70%;
-    text-shadow: 0.7px 0 0 #000, 0 -0.7px 0 #000, 0 0.7px 0 #000, -0.7px 0 0 #000;
+	position: absolute;
+	bottom: 8vw;
+	z-index: 3;
+	color: #fff;
+	text-align: center;
+	width: 70%;
+	text-shadow: 0.7px 0 0 #000, 0 -0.7px 0 #000, 0 0.7px 0 #000, -0.7px 0 0 #000;
 }
 
 
 .carousel-control-next,
 .carousel-control-prev {
-    top: 0vw;
+	top: 0vw;
 }
 
 #qoute {
-    font-size: 14px;
-    font-style: italic;
-    font-weight: bolder;
-    text-shadow: 0.7px 0 0 #000, 0 -0.7px 0 #000, 0 0.7px 0 #000, -0.7px 0 0 #000;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bolder;
+	text-shadow: 0.7px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
 }
 
 
 .person {
-    font-weight: bold;
-    font-style: italic;
+	font-weight: bold;
+	font-style: italic;
 }
 
 /*------------IKONER------------*/
 
 #ikoner {
-    padding: 1em 0;
-    background-color: #561018;
+	padding: 1em 0;
+	background-color: #561018;
 }
 
 .desktopinfografik {
-    display: none;
+	display: none;
 }
 
 /*------------INSPIRATION------------*/
 
 #inspiration {
-    padding: 1em 0 2em;
-    background-image: url(img/dust_scratches.jpg);
+	padding: 1em 0 2em;
+	background-image: url(img/dust_scratches.jpg);
 }
 
 #inspiration img {
-    margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 #inspiration .btn {
-    margin: 15px 0 0;
+	margin: 15px 0 0;
 }
 
 #inspiration .row {
-    padding-top: 2em;
+	padding-top: 2em;
 }
 
 .inspirationstekst {
-    padding: 0 45px;
+	padding: 0 45px;
 }
 
 .inspirationsbilleder img {
-    padding: 10px 45px;
+	padding: 10px 45px;
 }
 
 .valdemarsro_tekst {
-    padding: 20px 45px;
+	padding: 20px 45px;
 }
 
 .valdemarsro_billeder {
-    padding: 0 45px;
+	padding: 0 45px;
 }
 
 .valdemarsro_billeder img {
-    padding: 4px 0px;
+	padding: 4px 0px;
 }
 
 .grill_oven img {
-    margin: 10px 0;
+	margin: 10px 0;
 }
 
 .grill_oven li {
-    margin: 8px 0;
+	margin: 8px 0;
 }
 
 /*------------FOOTER------------*/
 
 #footer {
-    min-height: 200px;
-    background-color: #561018;
-    padding: 40px 0;
+	min-height: 200px;
+	background-color: #561018;
+	padding: 40px 0;
 }
 
 .social {
-    padding-top: 2em;
+	padding-top: 2em;
 }
 
 .kontakt_oplysninger {
-    color: #FFF;
+	color: #FFF;
 }
 
 .social_media {
-    width: 3em;
-    padding: 5px;
+	width: 3em;
+	padding: 5px;
 }
 
 #footer_btn {
-    margin-top: 20px;
-    background-color: #FFF;
-    color: #000;
+	margin-top: 20px;
+	background-color: #FFF;
+	color: #000;
 }
 
 #footer_btn:hover {
-    color: #A32026;
+	color: #A32026;
 }
 
 
@@ -445,254 +454,254 @@ a {
 
 @media screen and (min-width: 414px) {
 
-    @keyframes arrow_kf {
-        0% {
-            top: 54vw;
-        }
+	@keyframes arrow_kf {
+		0% {
+			top: 54vw;
+		}
 
-        100% {
-            top: 57vw;
-        }
-    }
+		100% {
+			top: 57vw;
+		}
+	}
 
-    #intro {
-        padding-top: 18%;
-    }
+	#intro {
+		padding-top: 18%;
+	}
 
-    .cookperfect1 img {
-        top: 25%;
-    }
+	.cookperfect1 img {
+		top: 25%;
+	}
 
-    .cookperfect2 img {
-        top: -15%;
-        margin-bottom: 0px;
-    }
+	.cookperfect2 img {
+		top: -15%;
+		margin-bottom: 0px;
+	}
 
-    h2 {
-        font-size: 25px;
-    }
+	h2 {
+		font-size: 25px;
+	}
 
-    #guides h2 {
-        font-size: 20px;
-    }
+	#guides h2 {
+		font-size: 20px;
+	}
 
-    #guide1 {
-        padding-top: 2em;
-    }
+	#guide1 {
+		padding-top: 2em;
+	}
 
-    .carousel-caption {
-        bottom: 15vw;
-    }
+	.carousel-caption {
+		bottom: 15vw;
+	}
 }
 
 @media screen and (min-width: 576px) {
 
-    .arrow {
-        width: 8%;
-        height: 9%;
-        left: 46%;
-    }
+	.arrow {
+		width: 8%;
+		height: 9%;
+		left: 46%;
+	}
 
-    @keyframes arrow_kf {
-        0% {
-            top: 51vw;
-        }
+	@keyframes arrow_kf {
+		0% {
+			top: 51vw;
+		}
 
-        100% {
-            top: 54vw;
-        }
-    }
+		100% {
+			top: 54vw;
+		}
+	}
 
-    .cookperfect1 img {
-        top: 30%;
-    }
+	.cookperfect1 img {
+		top: 30%;
+	}
 
-    .cookperfect2 img {
-        top: -25%;
-    }
+	.cookperfect2 img {
+		top: -25%;
+	}
 
-    #guide1 {
-        padding-top: 1em;
-    }
+	#guide1 {
+		padding-top: 1em;
+	}
 
-    #instagram {
-        padding: 0px;
-    }
+	#instagram {
+		padding: 0px;
+	}
 
-    .carousel-caption {
-        bottom: 14vw;
-    }
+	.carousel-caption {
+		bottom: 14vw;
+	}
 }
 
 /*COL-MD*/
 
 @media screen and (min-width: 768px) {
 
-    #splashbillede {
-        display: none;
-    }
+	#splashbillede {
+		display: none;
+	}
 
-    #splashvideo {
-        display: block;
-    }
+	#splashvideo {
+		display: block;
+	}
 
-    .arrow {
-        width: 8%;
-        height: 9%;
-        left: 46%;
-    }
+	.arrow {
+		width: 8%;
+		height: 9%;
+		left: 46%;
+	}
 
-    @keyframes arrow_kf {
-        0% {
-            top: 49vw;
-        }
+	@keyframes arrow_kf {
+		0% {
+			top: 49vw;
+		}
 
-        100% {
-            top: 52vw;
-        }
-    }
+		100% {
+			top: 52vw;
+		}
+	}
 
-    #intro {
-        padding-top: 20%;
-    }
+	#intro {
+		padding-top: 20%;
+	}
 
-    .introtekst {
-        font-size: 25px;
-    }
+	.introtekst {
+		font-size: 25px;
+	}
 
-    .cookperfect1 img {
-        top: 30%;
-    }
+	.cookperfect1 img {
+		top: 30%;
+	}
 
-    .cookperfect2 img {
-        top: -20%;
-    }
+	.cookperfect2 img {
+		top: -20%;
+	}
 
-    #guide1 {
-        padding-top: 3em;
-    }
+	#guide1 {
+		padding-top: 3em;
+	}
 
-    .guide1,
-    .guide2,
-    .guide3,
-    .guide4 {
-        align-items: center;
-        margin-top: 0;
-        text-align: left;
-    }
+	.guide1,
+	.guide2,
+	.guide3,
+	.guide4 {
+		align-items: center;
+		margin-top: 0;
+		text-align: left;
+	}
 
-    .fadeinleft {
-        position: relative;
-        left: -1000px;
-        opacity: 0;
-    }
+	.fadeinleft {
+		position: relative;
+		left: -1000px;
+		opacity: 0;
+	}
 
-    .fadeinright {
-        position: relative;
-        left: 1000px;
-        opacity: 0;
-    }
+	.fadeinright {
+		position: relative;
+		left: 1000px;
+		opacity: 0;
+	}
 
-    #forhandler img {
-        padding-bottom: 0px;
-    }
+	#forhandler img {
+		padding-bottom: 0px;
+	}
 
-    .carousel-item {
-        height: 350px;
-    }
+	.carousel-item {
+		height: 350px;
+	}
 
-    .carousel-caption {
-        text-align: left;
-        width: 50%;
-        bottom: 6vw;
-    }
+	.carousel-caption {
+		text-align: left;
+		width: 50%;
+		bottom: 6vw;
+	}
 
-    #qoute {
-        font-size: 22px;
-    }
+	#qoute {
+		font-size: 22px;
+	}
 
-    .desktopinfografik {
-        display: block;
-    }
+	.desktopinfografik {
+		display: block;
+	}
 
-    .mobilinfografik {
-        display: none;
-    }
+	.mobilinfografik {
+		display: none;
+	}
 }
 
 /*COL-LG*/
 
 @media screen and (min-width: 992px) {
 
-    #splashvideo {
-        margin-top: 0px;
-        width: 100vw;
-        position: absolute;
-    }
+	#splashvideo {
+		margin-top: 0px;
+		width: 100vw;
+		position: absolute;
+	}
 
-    .arrow {
-        width: 5%;
-        height: 10%;
-        left: 47.5%;
-    }
+	.arrow {
+		width: 5%;
+		height: 10%;
+		left: 47.5%;
+	}
 
-    @keyframes arrow_kf {
-        0% {
-            top: 40vw;
-        }
+	@keyframes arrow_kf {
+		0% {
+			top: 40vw;
+		}
 
-        100% {
-            top: 43vw;
-        }
-    }
+		100% {
+			top: 43vw;
+		}
+	}
 
-    #intro {
-        padding-top: 11%;
-    }
+	#intro {
+		padding-top: 11%;
+	}
 
-    .cookperfect1 img {
-        top: 40%;
-    }
+	.cookperfect1 img {
+		top: 40%;
+	}
 
-    .cookperfect2 img {
-        top: -25%;
-    }
+	.cookperfect2 img {
+		top: -25%;
+	}
 
-    #guides h2 {
-        margin-top: 0.5em;
-    }
+	#guides h2 {
+		margin-top: 0.5em;
+	}
 
-    #explainer video {
-        margin: 0em 0 0;
-    }
+	#explainer video {
+		margin: 0em 0 0;
+	}
 
-    .explainermobil_tekst {
-        display: none;
-    }
+	.explainermobil_tekst {
+		display: none;
+	}
 
-    .explainer_tekst {
-        display: block;
-    }
+	.explainer_tekst {
+		display: block;
+	}
 
-    .social_media {
-        padding-bottom: 5px;
-    }
+	.social_media {
+		padding-bottom: 5px;
+	}
 
 }
 
 @media screen and (min-width: 1200px) {
 
-    #splashvideo {
-        margin-top: 0px;
-    }
+	#splashvideo {
+		margin-top: 0px;
+	}
 
-    #intro {
-        padding-top: 16%;
-    }
+	#intro {
+		padding-top: 16%;
+	}
 
 }
 
 @media screen and (min-width: 2000px) {
-    #intro {}
+	#intro {}
 
 }
