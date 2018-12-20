@@ -78,6 +78,13 @@ a {
     margin-top: 97px;
     width: 100%;
     position: absolute;
+    display: none;
+}
+
+#splashbillede {
+    margin-top: 97px;
+    width: 100%;
+    position: absolute;
 }
 
 
@@ -491,6 +498,14 @@ a {
 
 @media screen and (min-width: 768px) {
 
+    #splashbillede {
+        display: none;
+    }
+
+    #splashvideo {
+        display: block;
+    }
+
     .arrow {
         width: 8%;
         height: 9%;
@@ -644,5 +659,10 @@ a {
     #intro {
         padding-top: 16%;
     }
+
+}
+
+@media screen and (min-width: 2000px) {
+    #intro {}
 
 }
