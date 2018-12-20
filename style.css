@@ -20,7 +20,6 @@ section {
     display: block;
     color: #000;
     padding: 15px 0;
-    text-decoration: none;
     font-size: 17px;
 }
 
@@ -65,8 +64,6 @@ a {
     background-color: #561018;
 }
 
-/*------------BURGERMENU STYLING------------*/
-
 /*------------HEADER STYLING------------*/
 
 #welcome {
@@ -90,7 +87,6 @@ a {
 
 .welcome_tekst {
     margin-top: 120px;
-    /*	background-color: rgba(255, 255, 255, 0.39);*/
     padding: 8%;
     z-index: 5;
 
@@ -120,7 +116,6 @@ a {
 
     animation-name: arrow_kf;
     animation-duration: 0.8s;
-    /**animation-fill-mode:**/
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-timing-function: linear;
@@ -229,7 +224,6 @@ a {
 .guide4 {
     align-items: center;
     margin-top: 1em;
-    justify-content: center;
     text-align: center;
 }
 
@@ -272,7 +266,6 @@ a {
 
 .instagram_img {
     padding: 3px;
-    /*border: 1px #FFF solid;*/
 }
 
 .instagram_img:hover {
